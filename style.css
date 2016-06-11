@@ -41,9 +41,6 @@ time, mark, audio, video {
 	font-size: 1.3em;
 	font-weight: bold;
 }
-#display {
-	color: hsla(0,0%,100%,1.00);
-}
 
 html {
   line-height: 1; }
@@ -57,9 +54,7 @@ caption, th, td {
   font-weight: normal;
   vertical-align: middle; }
 
-  q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
-    content: none; }
+  
 
  aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
@@ -199,13 +194,11 @@ p {
 #btn_total {
 	width: 124px;
 }
-
-
-
-.pannel input {
+#display  {
 	font-family: 'Droid Sans', sans-serif;
 	width: 300px;
-	padding: 10px 0 10px 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 1.4em;
 	background: rgba(255,255,255,0.4);
 	border: 1px solid rgba(255,255,255,0.2);
@@ -214,6 +207,16 @@ p {
 	color: hsla(0,0%,100%,1.00);
 	text-align: right;
 	font-weight: bold;
+}
+#displayDigits {
+	text-align: right;
+	background-color: hsla(0,0%,0%,0.00);
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.4em;
+	color: hsla(0,0%,100%,1.00);
+	width: 270px;
+	border-color: hsla(0,0%,100%,0.00);
+	margin-right: 20px;
 }
 
 

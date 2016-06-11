@@ -19,7 +19,9 @@
   <div class="main" ng-view>
       <div class="pannel">
         <h1>Calculator</h1>
-        <input id="display" type ="text" ng-readonly ="true" ng-model="displayValue">
+        <div id="display">
+       	 <input id="displayDigits" type ="text" ng-readonly ="true" ng-model="displayValue">
+        </div>
         <div id="buttons" layout="row" layout-align="center center">
           <button ng-click="addItem('AC')" class="btn"> AC </button>
           <button ng-click="addItem('CE')" class="btn"> CE </button>
